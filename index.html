@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Research prototype for amblyopia anti-suppression practice using anaglyph glasses.">
+<title>Anti-Suppression Practice</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111'/%3E%3Ccircle cx='24' cy='32' r='14' fill='%23ff0000'/%3E%3Ccircle cx='40' cy='32' r='14' fill='%2300ffff'/%3E%3C/svg%3E">
+</head>
+<body>
+<div id="app">
+  <noscript>This prototype requires JavaScript.</noscript>
+</div>
+
+<script>
+  // Register the service worker only over http/https (not file://).
+  if ('serviceWorker' in navigator &&
+      (location.protocol === 'http:' || location.protocol === 'https:')) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('service-worker.js').catch(function (err) {
+        console.warn('Service worker registration failed:', err);
+      });
+    });
+  }
+</script>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

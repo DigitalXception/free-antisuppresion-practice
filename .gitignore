@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials*.json
+
+# Local runtime + test artifacts
+.test-harness/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor / cache junk
+.vscode/
+.idea/
+*.swp
+*~
+.cache/

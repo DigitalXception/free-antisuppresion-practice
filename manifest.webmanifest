@@ -1,0 +1,25 @@
+{
+  "name": "Anti-Suppression Practice",
+  "short_name": "AntiSup",
+  "description": "Research prototype for amblyopia anti-suppression practice using anaglyph glasses.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20192%20192%22%3E%3Crect%20width%3D%22192%22%20height%3D%22192%22%20fill%3D%22%23111111%22%2F%3E%3Ccircle%20cx%3D%2272%22%20cy%3D%2296%22%20r%3D%2240%22%20fill%3D%22%23ff2020%22%20fill-opacity%3D%220.9%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2296%22%20r%3D%2240%22%20fill%3D%22%2300ffff%22%20fill-opacity%3D%220.9%22%2F%3E%3C%2Fsvg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Crect%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22%23111111%22%2F%3E%3Ccircle%20cx%3D%22192%22%20cy%3D%22256%22%20r%3D%22107%22%20fill%3D%22%23ff2020%22%20fill-opacity%3D%220.9%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22256%22%20r%3D%22107%22%20fill%3D%22%2300ffff%22%20fill-opacity%3D%220.9%22%2F%3E%3C%2Fsvg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
